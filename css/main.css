@@ -1,0 +1,195 @@
+/* Общие стили для body */
+body {
+  background-color: #ffffff;
+  color: #757575;
+}
+
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+/*  Основной цвет текста #212121 */
+/* Белый цвет текста #FFFFFF */
+/* Акцент #2196F3 */
+/*  Вторичный цвет текста  #757575 */
+/* Вторичный цвет фона #F5F4FA */
+
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --white-text: #ffffff;
+  --accent-color: #2196f3;
+  --background-color-button: #2196f3;
+  --footer-adress-color: rgba(255, 255, 255, 0.6);
+}
+
+/* Site-nav */
+
+.logo:hover,
+.logo:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.adress-nav .link {
+  color: var(--secondary-text-color);
+}
+
+.adress-nav .link:hover,
+.adress-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* Section hero */
+
+.hero {
+  background-color: #2f303a;
+}
+
+.hero .hero-title {
+  text-transform: uppercase;
+  color: var(--white-text);
+}
+
+.hero .button {
+  background-color: var(--background-color-button);
+  color: var(--white-text);
+}
+
+/* .hero-title {
+  color: var(--white-text);
+} */
+
+/* .hero-title .button {
+  background-color: var(--background-color-button);
+} */
+
+/* Секция преимущества */
+
+.advantage .title {
+  text-transform: uppercase;
+}
+
+.advantage .title {
+  color: var(--primary-text-color);
+}
+
+/* Секция work */
+.work .title {
+  color: var(--primary-text-color);
+}
+
+.work .apps {
+  text-transform: uppercase;
+}
+
+/* Features */
+
+.features .title {
+  color: var(--primary-text-color);
+}
+
+.features .title-name {
+  color: var(--primary-text-color);
+}
+
+.features .link:hover,
+.features .link:focus {
+  color: var(--accent-color);
+}
+
+/* Clients */
+
+.clients .title {
+  color: var(--primary-text-color);
+}
+
+.clients .link:hover,
+.clients .link:focus {
+  color: var(--accent-color);
+}
+
+/* Footer */
+
+.footer {
+  background-color: #2f303a;
+}
+
+.footer .title {
+  text-transform: uppercase;
+  color: var(--white-text);
+}
+
+.subscribe .title {
+  text-transform: uppercase;
+  color: var(--white-text);
+}
+
+.subscribe .button {
+  color: var(--white-text);
+  background-color: var(--background-color-button);
+}
+
+.subscribe .mail {
+  color: var(--footer-adress-color);
+}
+
+.adress .map-link {
+  color: var(--white-text);
+}
+
+.adress .adress-link {
+  color: var(--footer-adress-color);
+}
+
+.joining .link:hover,
+.joining .link:focus {
+  color: var(--accent-color);
+}
+
+.footer p {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+/* Portfolio */
+
+.portfolio .heading {
+  display: none;
+}
+
+.portfolio .button {
+  color: var(--primary-text-color);
+}
+
+.portfolio .button:hover,
+.portfolio .button:focus {
+  color: var(--accent-color);
+}
+
+.portfolio .title {
+  color: var(--primary-text-color);
+}
+
+.portfolio p {
+  color: var(--secondary-text-color);
+}
+
+.portfolio .sites:hover,
+.portfolio .sites:focus {
+  color: var(--accent-color);
+}
