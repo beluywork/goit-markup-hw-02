@@ -178,18 +178,27 @@ ul {
 
 .portfolio .button:hover,
 .portfolio .button:focus {
-  color: var(--accent-color);
+  color: var(--primary-text-color);
+  background-color: var(--background-color-button);
 }
 
 .portfolio .title {
   color: var(--primary-text-color);
 }
 
-.portfolio p {
+.portfolio .site {
   color: var(--secondary-text-color);
+}
+
+.portfolio .text {
+  color: var(--white-text);
 }
 
 .portfolio .sites:hover,
 .portfolio .sites:focus {
   color: var(--accent-color);
+}
+
+.portfolio .text {
+  background-color: var(--background-color-button);
 }
